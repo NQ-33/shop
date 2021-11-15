@@ -1,6 +1,6 @@
 <template>
   <div id="app" v-cloak>
-    <keep-alive exclude="Detail,cart,Category">
+    <keep-alive exclude="Detail,cart">
       <router-view/>
     </keep-alive>
     
